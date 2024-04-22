@@ -1,0 +1,448 @@
+body {
+	background: #EFEFBB;
+	background-color: #743939;
+	color: white;
+	margin: 0;
+	font-family: rubik;
+}
+
+.container {
+	padding:10px;
+	margin: 0 auto;
+}
+
+i{
+    margin-right: 70px;
+    z-index: 1;
+    
+}
+h1 {
+	text-align: center;
+	font-size: 54px;
+}
+
+.pokedex {
+	display: grid;
+	grid-gap: 10px;
+	padding-inline-start: 0;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+	list-style: none;
+	padding: 10px;
+	color: #222;
+	border-radius: 15px;
+	position: relative;
+    width: 333px;
+    height: 104px;
+    margin: auto;
+}
+
+
+.steel {
+	background-color: #f4f4f4;
+    
+}
+
+
+.fire {
+	background-color: #FCF3EB;
+}
+
+.fire::after{
+	background-image: url("/img/fogo/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: top;
+	content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color: #FF9D55;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.grass {
+	background-color: #EDF6EC;
+}
+.grass::after{
+    background-image: url("/img/folha/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color: #18c412;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.electric {
+	background-color: #FBF8E9;
+}
+.electric::after{
+	background-image: url("/img/eletrico/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 20px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color: #F4D23C;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+.water, .ice {
+	background-color: #EBF1F8;
+	
+}
+.water::after{
+	background-image: url("/img/agua/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 20px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color: #5090D6;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.ground {
+	background-color: #F9EFEA;
+}
+.ground::after{
+	background-image: url("/img/terra/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #D97845;
+    opacity: .7;
+    position: absolute;
+    left: 224px;
+}
+
+.rock {
+	background-color: #F7F5F1;
+}
+
+.rock::after{
+    background-image: url("/img/pedra/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color: #C5B78C;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.fairy {
+	background-color: #FBF1FA;
+}
+.fairy::after{
+	background-image: url("/img/fofo/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color:#EC8FE6;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.poison {
+	background-color: #F5EDF8;
+}
+.poison::after{
+	background-image: url("/img/veneno/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 8px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color:#B567CE;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+	
+}
+
+.bug {
+	background-color: #F1F6E8;
+}
+.bug::after{
+	background-image: url("/img/inseto/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 12px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color:#91C12F;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.dragon {
+	background-color: #97b3e6;
+}
+
+.psychic {
+	background-color: #FCEEEF;
+}
+.psychic::after{
+	background-image: url("/img/psyc/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color: #FA7179;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+.flying {
+	background-color: #35486d;
+}
+
+
+.fighting {
+	background-color: #F8E9EE;
+}
+.fighting::after{
+	background-image: url("/img/luta/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color:#CE416B;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+
+.normal {
+	background-color: #F1F2F3;
+}
+.normal::after{
+	background-image: url("/img/normal/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color:#919AA2;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+
+}
+.ghost{
+    background-color: #EBEDF4;
+}
+
+.ghost::after {
+    background-image: url("/img/fatasma/Pokédex/Vector.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    content: "";
+    display: block;
+    width: 106px;
+    height: 102px;
+    border-radius: 15px;
+    background-color:#919AA2;
+    opacity: .7;
+    position: absolute;
+    top: 0px;
+    left: 224px;
+}
+.card:hover {
+	animation: bounce 0.5s linear;
+}
+
+.card-title {
+    text-align: center;
+	text-transform: capitalize;
+	margin-bottom: 0px;
+	font-size: 10px;
+	font-weight: normal;
+	z-index: 2;
+    margin-left: 30px;
+
+   
+    
+}
+.card-title1 {  /* nome */
+
+	margin-bottom: 0px;
+	font-size: 10px;
+	font-weight: normal;
+	z-index: 1;
+    margin-top: 20px;
+    margin-right: 290px;
+}
+
+
+p{
+    position: absolute; 
+    font-size: 9px;
+    margin-right: 245px;
+    margin-top: 50px;
+}
+
+.card-image {
+	border-radius: 10px;
+    position: absolute; 
+    top: 0;
+    left: 230px; 
+    z-index: 2;
+}
+
+.button {
+    align-items: center;
+    width: 148px;
+    height: 32px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+
+}
+
+
+.button-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-left: 440px;
+}
+/* Cor do tipo  */
+
+.button-normal {
+    background-color: #919AA2;/
+}
+.button-water{
+    background-color: #5090D6;
+}
+.button-dragon{
+    background-color: #0B6DC3;
+}
+.button-electric{
+    background-color: #F4D23C;
+}
+.button-fairy{
+    background-color: #EC8FE6;
+}
+
+.button-ghost{
+    background-color: #5269AD;
+}
+
+.button-fire{
+    background-color: #FF9D55;
+}
+
+.button-ice{
+    background-color: #73CEC0;
+}
+
+.button-grass{
+    background-color: #63BC5A;
+}
+
+.button-bug{
+    background-color: #91C12F;
+}
+
+.button-dark{
+    background-color: #5A5465;
+}
+
+.button-steel{
+    background-color: #5A8EA2;
+}
+
+.button-rock{
+    background-color: #C5B78C;
+}
+.button-psychic{
+    background-color: #FA7179;
+}
+.button-ground{
+    background-color: #D97845;
+}
+.button-poison{
+    background-color: #B567CE;
+}
+
+.button-flying{
+    background-color: #89AAE3;
+}
+
+.button-fighting{
+    background-color: #CE416B;
+}
+@keyframes bounce {
+	20% {
+			transform: translateY(-6px);
+	}
+	40% {
+			transform: translateY(0px);
+	}
+
+	80% {
+			transform: translateY(-2px);
+	}
+	100% {
+			transform: translateY(0);
+	}
+}
